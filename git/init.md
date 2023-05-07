@@ -1,4 +1,4 @@
-#### 1. cd到项目文件目录
+#### 1. cd到要绑定的文件目录
 
 
 
@@ -34,9 +34,16 @@ git commit -m "first commit"
 
 
 
-#### 6.本地仓库关联github仓库
+#### 6. 本地仓库关联github仓库
 
 ```js
 git remote add origin https://github.com/yanyong995821/accumulate.git
 ```
 
+
+
+#### 7. 推送到远端代码库
+
+```js
+git push -u origin main
+```
