@@ -18,7 +18,7 @@
 ```mysql
 # 创建数据库:
 ( A ) = "if not exists"             // if ( 数据库不存在 ) 执行创建库
-( B ) = "default charset 【字符集】"  // 指定编码格式
+( B ) = "default char set 【字符集】"  // 指定编码格式
 ( C ) = "collate 【排序规则】"		// 指定排序规则
 create database 《 A 》 `【库名】` 《 B 》 《 C 》;
 
